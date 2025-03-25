@@ -1,0 +1,26 @@
+#navigation>a{
+    margin-right: 15px;    
+    text-decoration: none;
+    color: black;
+}
+header{
+    top: auto;
+    text-align: center;
+    color: white;
+    background-color: darkgray;
+    height: auto;
+}
+h1{
+    font-style: italic;
+    font-weight: bolder;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    display: inline-flex;
+}
+#dfsfd{
+    margin-right: 15px;
+}
+body{
+}
