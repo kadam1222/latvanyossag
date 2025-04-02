@@ -7,20 +7,44 @@ img{
 h2{
   text-align: center;
 }
-
-#cimleiras{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center
-}
 button{
   margin-left: 10px;
   margin-right: 10px;
 }
-#etel{
+.etel{
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center
+  width: 330px;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px black solid;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 5px rgb(97, 97, 97);
+  align-items: center;
+}
+#fodiv{
+  display: flex;
+  flex-wrap: wrap
+}
+
+
+h1{
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+  padding: 15px;
+  margin: 15px;
+}
+
+.utazaskep{
+  width: 200px;
+  height: 200px;
+}
+
+.utazasszov{
+  padding: 10px;
+  
 }
