@@ -36,10 +36,13 @@ export default function Fooldal(){
         </header>
         <main>
             <div>
-            Koppenhága Dánia fővárosa és legnagyobb városa, amely Skandinávia egyik kulturálisan gazdag központja. A város híres történelmi látnivalóiról, mint például a **Tivoli kert**, a **Nyhavn** csatorna és a **Királyi Palota**. A város egyben fontos gazdasági és tudományos központ is. A modern városképben keveredik a régi épületek és a kortárs építészet, miközben hangsúlyos szerepet kapnak a fenntarthatóság és a környezetvédelem.
+                <p>Koppenhága Dánia fővárosa és legnagyobb városa, amely Skandinávia egyik kulturálisan gazdag központja. A város híres történelmi látnivalóiról, mint például a **Tivoli kert**, a **Nyhavn** csatorna és a **Királyi Palota**. A város egyben fontos gazdasági és tudományos központ is. A modern városképben keveredik a régi épületek és a kortárs építészet, miközben hangsúlyos szerepet kapnak a fenntarthatóság és a környezetvédelem.
+                </p>
             </div>
             <div>
-            Koppenhága a híres <a href="https://csamborgo.hu/2019/05/15/a-kis-hableany-szobra/">Bébi Bálna</a> szobráról (The Little Mermaid) is ismert, amely Hans Christian Andersen meséje alapján készült. Emellett a város pezsgő étkezési kultúrája és a biciklizésre való fókuszálás is a látogatók körében vonzóvá teszi.
+                <p>            
+                    Koppenhága a híres <a href="https://csamborgo.hu/2019/05/15/a-kis-hableany-szobra/">Bébi Bálna</a> szobráról (The Little Mermaid) is ismert, amely Hans Christian Andersen meséje alapján készült. Emellett a város pezsgő étkezési kultúrája és a biciklizésre való fókuszálás is a látogatók körében vonzóvá teszi.
+                </p>
             </div>
         </main>
         <footer>

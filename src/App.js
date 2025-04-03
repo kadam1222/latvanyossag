@@ -1,7 +1,7 @@
 import './App.css';
 import "./components/fooldal.css"
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-import Latvanyossag from "../src/components/latvanyossag"
+//import Latvanyossag from "../src/components/latvanyossag"
 import Galeria from "../src/components/galeria"
 /*import Programok from "../components/programok"
 import Terkep from "../components/terkep"
@@ -18,7 +18,6 @@ function Fooldal(){
         <h1>Koppenhága</h1>
         <nav id="navigation">
               <Link to="/">Főoldal</Link>
-              <Link to={"/latvanyossag"}>Látványosságok</Link>
               <Link to={"/galeria"}>Galléria</Link>
             </nav>
     </header>
@@ -45,7 +44,7 @@ function Fooldal(){
           Ma Koppenhága Európa egyik legélhetőbb és leginnovatívabb városa, híres a fenntarthatóság iránti elkötelezettségéről és kulturális örökségéről.<br/>
           </div>
           <div>
-            <img src='https://hamlettours.com/wp-content/uploads/Christiansborg/christiansborg_palace.jpg'></img>
+            <img src='https://hamlettours.com/wp-content/uploads/Christiansborg/christiansborg_palace.jpg' className='kep'></img>
           </div>
         </div>
         <div id='erdekessegek'>
@@ -69,7 +68,6 @@ function App() {
     <Router>
             <Routes>
               <Route path='/' element={<Fooldal />}/>
-              <Route path="/latvanyossag" element={<Latvanyossag />}/>
               <Route path='/galeria' element={<Galeria />}/>
             </Routes>
         </Router>
