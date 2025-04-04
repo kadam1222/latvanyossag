@@ -15,7 +15,7 @@ h1{
     font-weight: bolder;
 }
 footer{
-    position: absolute;
+    
     bottom: 0;
     display: inline-flex;
 }
@@ -33,7 +33,7 @@ body {
 h2{
     font-style: italic;
 }
-img{
+#kep{
     margin-left: 75px;
     margin-top: 80px;
     width: 300px;

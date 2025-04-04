@@ -1,8 +1,15 @@
-img{
-  width: 300px;
+.kajakep{
+  width: 350px;
   height: 300px;
   margin-top: 15px;
-  border: 5px black solid;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+.kajalabel{
+  font-weight:500;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 h2{
   text-align: center;
@@ -13,18 +20,23 @@ button{
 }
 .etel{
   display: flex;
-  width: 330px;
+  width: 380px;
+  height: 450px;
   text-align: center;
   margin: auto;
   justify-content: space-between;
   flex-direction: column;
-  border: 1px black solid;
+  border: 3px black solid;
   margin-bottom: 15px;
   border-radius: 10px;
   box-shadow: 3px 5px rgb(97, 97, 97);
   align-items: center;
 }
 #fodiv{
+  display: flex;
+  flex-wrap: wrap
+}
+#fodiviroda{
   display: flex;
   flex-wrap: wrap
 }
@@ -40,11 +52,32 @@ ul{
 }
 
 .utazaskep{
-  width: 200px;
+  width: 350px;
   height: 200px;
+  padding: 5px;
+  border-radius: 10px;
 }
 
 .utazasszov{
   padding: 10px;
-  
+  font-weight: 600;
+}
+
+.link{
+  padding: 5px;
+}
+
+.utazasdiv{
+  display: flex;
+  width: 380px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 3px black solid;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 5px rgb(97, 97, 97);
+  align-items: center;
 }
