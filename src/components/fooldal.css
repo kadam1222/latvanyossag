@@ -33,7 +33,7 @@ body {
 h2{
     font-style: italic;
 }
-#kep{
+.kep{
     margin-left: 75px;
     margin-top: 80px;
     width: 300px;

@@ -1,7 +1,7 @@
 import './App.css';
 import "./components/fooldal.css"
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-import Latvanyossag from "../src/components/latvanyossag"
+//import Latvanyossag from "../src/components/latvanyossag"
 import Galeria from "../src/components/galeria"
 /*import Programok from "../components/programok"
 import Terkep from "../components/terkep"
@@ -28,7 +28,6 @@ function App() {
             </header>
             <Routes>
               <Route path='/' element={<Fooldal />}/>
-              <Route path="/latvanyossag" element={<Latvanyossag />}/>
               <Route path='/galeria' element={<Galeria />}/>
               <Route path='/gasztronomia' element={<Gasztronomia />}/>
               <Route path='/kapcsolat' element={<Kapcsolat />}/>
