@@ -1,11 +1,4 @@
-import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-import Galeria from "../components/galeria"
-import Gasztronomia from "../components/gasztronomia"
-import Kapcsolat from "../components/kapcsolat"
-import Latvanyossag from "../components/latvanyossag"
-import Programok from "../components/programok"
-import Terkep from "../components/terkep"
-import Tippek from "../components/tippek"
+
 import "../components/fooldal.css"
 
 export default function Fooldal(){
@@ -14,7 +7,7 @@ export default function Fooldal(){
         <main>
         <div id='felso'>
         <span>Koppenhága Dánia fővárosa és legnagyobb városa, amely Skandinávia egyik kulturálisan gazdag központja. </span><br/>
-        <span>A város híres történelmi látnivalóiról, mint például a **Tivoli kert**, a **Nyhavn** csatorna és a **Királyi Palota**. </span><br/>
+        <span>A város híres történelmi látnivalóiról, mint például a Tivoli kert, a Nyhavn csatorna és a Királyi Palota. </span><br/>
        <span> A város egyben fontos gazdasági és tudományos központ is. </span><br/>
        <span> A modern városképben keveredik a régi épületek és a kortárs építészet, miközben hangsúlyos szerepet kapnak a fenntarthatóság és a környezetvédelem.</span><br/>
         </div>

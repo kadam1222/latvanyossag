@@ -8,7 +8,7 @@ export default function Gasztronomia(){
 
     return(
         <>
-            <h2>Gasztronómia</h2>
+            <h1>Étel ajánlataink</h1>
             <div>
 
             </div>

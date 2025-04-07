@@ -15,9 +15,9 @@ h1{
     font-weight: bolder;
 }
 footer{
-    
     bottom: 0;
     display: inline-flex;
+    position: absolute;
 }
 #dfsfd{
     margin-right: 15px;
@@ -33,7 +33,7 @@ body {
 h2{
     font-style: italic;
 }
-.kep{
+#kep{
     margin-left: 75px;
     margin-top: 80px;
     width: 300px;
