@@ -23,7 +23,9 @@ function csokken(){
         <img src={aktualis.url} alt={aktualis.alt} className="kepekgal"></img>
         <button onClick={novel}>&rarr;</button>
         </div><br/>
-        <span>{aktualis.desc}</span>
+        <ul>
+            <li>{aktualis.desc}</li>
+        </ul>
         </>
     )
     

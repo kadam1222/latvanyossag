@@ -1,14 +1,16 @@
 #navigation>a{
     margin-right: 15px;    
     text-decoration: none;
-    color: black;
+    color: white;
 }
 header{
     top: auto;
     text-align: center;
     color: white;
-    background-color: rgba(211, 211, 211, 0.9);
+    background-color: black;
     height: auto;
+    width: 100%;
+    padding: 2px;
 }
 h1{
     font-style: italic;
@@ -18,17 +20,19 @@ footer{
     bottom: 0;
     display: inline-flex;
     position: absolute;
+    float: left;
 }
 #dfsfd{
     margin-right: 15px;
 }
 body {
-    background-color: rgba(173, 216, 230, 0.3);
+    background-color: rgb(237,232,208,0.3);
     font-weight: bolder;
 }
 
 #felso{
     margin-top: 15px;
+    text-align: center;
 }
 h2{
     font-style: italic;
@@ -38,7 +42,16 @@ h2{
     margin-top: 80px;
     width: 300px;
     height: 170px;
+    border: 2px solid black;
+    box-shadow: 3px 5px  black ;
 }
 #tortenelem{
     display: flex;
+    background-color: #eed9c4;
+    width: 80%;
+    margin: auto;
+    border: 2px black solid;
+    margin-top: 15px;
+    box-shadow: 2px 4px  black ;
+    padding: 10px;
 }

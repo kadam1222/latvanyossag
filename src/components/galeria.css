@@ -2,7 +2,11 @@
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    width:  40%;
+    width:  45%;
+    border: 1px black solid;
+    box-shadow: 3px 5px  black ;
+    background-color: rgb(238,217,196,0.3);
+    padding: 15px;
 }
 button{
     margin-left: 15px;
@@ -12,11 +16,13 @@ button{
     width: auto;
     color: black;
     background-color: white;
-    
+    border-radius: 25px;
+    border: 0px;
 }
 .kepekgal{
     width: 750px;
     height: 500px;
+    border: 2px solid black;
 }
 
 span{

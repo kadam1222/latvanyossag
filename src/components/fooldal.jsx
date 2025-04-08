@@ -10,9 +10,7 @@ export default function Fooldal(){
         <span>A város híres történelmi látnivalóiról, mint például a Tivoli kert, a Nyhavn csatorna és a Királyi Palota. </span><br/>
        <span> A város egyben fontos gazdasági és tudományos központ is. </span><br/>
        <span> A modern városképben keveredik a régi épületek és a kortárs építészet, miközben hangsúlyos szerepet kapnak a fenntarthatóság és a környezetvédelem.</span><br/>
-        </div>
-        <div>
-        Koppenhága a híres <a href="https://csamborgo.hu/2019/05/15/a-kis-hableany-szobra/">Bébi Bálna</a> szobráról (The Little Mermaid) is ismert, amely Hans Christian Andersen meséje alapján készült. Emellett a város pezsgő étkezési kultúrája és a biciklizésre való fókuszálás is a látogatók körében vonzóvá teszi.
+       <span>Koppenhága a híres <a href="https://csamborgo.hu/2019/05/15/a-kis-hableany-szobra/">Bébi Bálna</a> szobráról (The Little Mermaid) is ismert, amely Hans Christian Andersen meséje alapján készült. Emellett a város pezsgő étkezési kultúrája és a biciklizésre való fókuszálás is a látogatók körében vonzóvá teszi.</span>
         </div>
         <div id='tortenelem'>
           <div>
@@ -32,10 +30,16 @@ export default function Fooldal(){
         </div>
             <div id='erdekessegek'>
             <h2>Érdekességek</h2>
-          A dánok a világ legboldogabb emberei: A híres „Boldogság Index” szerint a dánok évről évre a világ legboldogabb népei közé tartoznak, és Koppenhága is nagy szerepet játszik ebben a város kedvező életminőségével és zöld környezetével.<br/>
-          A világ egyik legjobb éttermét találod itt: A "Noma" étterem, amely a világ legjobb éttermei között szerepel, Koppenhágában található. A séf, René Redzepi, híres a skandináv konyha újragondolásáról. <br/>
-          Dánia biciklis paradicsom: Koppenhágában több mint 390 km kerékpárút van, és a város lakóinak több mint 40%-a mindennap biciklivel közlekedik. <br/>
-          Koppenhága a design fővárosa: A város híres a minimalista dán dizájnról, és sok híres bútorgyártó, például a „Georg Jensen” és a „Bang & Olufsen” itt működik.
+            <ul>
+                <li>A dánok a világ legboldogabb emberei: A híres „Boldogság Index” szerint a dánok évről évre a világ legboldogabb népei közé tartoznak, és Koppenhága is nagy szerepet játszik ebben a város kedvező életminőségével és zöld környezetével.</li>
+                <li>A világ egyik legjobb éttermét találod itt: A "Noma" étterem, amely a világ legjobb éttermei között szerepel, Koppenhágában található. A séf, René Redzepi, híres a skandináv konyha újragondolásáról.</li>
+                <li>Dánia biciklis paradicsom: Koppenhágában több mint 390 km kerékpárút van, és a város lakóinak több mint 40%-a mindennap biciklivel közlekedik.</li>
+                <li>Koppenhága a design fővárosa: A város híres a minimalista dán dizájnról, és sok híres bútorgyártó, például a „Georg Jensen” és a „Bang & Olufsen” itt működik.</li>
+            </ul>
+          
+          
+          
+          
 
             </div>
         </main>
