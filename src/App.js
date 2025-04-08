@@ -1,12 +1,11 @@
 import './App.css';
 import "./components/fooldal.css"
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom"
-//import Latvanyossag from "../src/components/latvanyossag"
+import Latvanyossag from "../src/components/latvanyossag"
 import Galeria from "../src/components/galeria"
-/*import Programok from "../components/programok"
-import Terkep from "../components/terkep"
-import Tippek from "../components/tippek"
-*/
+import Programok from "../src/components/programok"
+import Terkep from "../src/components/terkep"
+import Tippek from "../src/components/tippek"
 import Gasztronomia from "../src/components/gasztronomia"
 import Kapcsolat from "../src/components/kapcsolat"
 import Fooldal from './components/fooldal';
@@ -25,6 +24,9 @@ function App() {
               <Link to={"/galeria"}>Galléria</Link>
               <Link to={"/gasztronomia"}>Gasztronómia</Link>
               <Link to={"/kapcsolat"}>Kapcsolat</Link>
+              <Link to={"/tippek"}>Tippek</Link>
+              <Link to={"/programok"}>Programok</Link>
+              
             </nav>
             </header>
             <Routes>
@@ -32,6 +34,9 @@ function App() {
               <Route path='/galeria' element={<Galeria />}/>
               <Route path='/gasztronomia' element={<Gasztronomia />}/>
               <Route path='/kapcsolat' element={<Kapcsolat />}/>
+              <Route path='/tippek' element={<Tippek />}/>
+              <Route path='/programok' element={<Programok />}/>
+              <Route path='/latvanyossag' element={<Latvanyossag />}/>
             </Routes>
         </Router>
   )
