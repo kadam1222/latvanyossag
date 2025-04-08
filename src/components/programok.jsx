@@ -1,6 +1,7 @@
+import './programok.css'
 export default function Programok(){
     return(
-        <div>
+        <div id='fodiv'>
             <h1>Programok</h1>
             <div>
                 <h2>csatornasétahajózás idegenvezetővel</h2>
@@ -9,7 +10,8 @@ export default function Programok(){
                    <li>Élvezze a dán királyi család otthonául szolgáló Amalienborg-palota látványát!</li>
                    <li>Hajózzon el a dán parlament otthona, a Christiansborg-palota mellett.</li>
                 </ul>
-
+            </div>
+            <div>
                 <h2>Tivoli Gardens belépőjegy korlátlan utazással.</h2>
                 <ul>
                     <li>Érezze az izgalmakat az olyan hullámvasutakkal, mint a Tejút Expressz hullámvasút.</li> 
@@ -17,6 +19,8 @@ export default function Programok(){
                    <li>Cápákat láthat, miközben végigsétál a 30 méteres korallzátony-medencén az akváriumban.</li> 
                 </ul>
             </div>
+                
+            
 
             <div>
                 <h2>Tivoli Gardens belépőjegy</h2>
@@ -27,7 +31,8 @@ export default function Programok(){
                     <li>Élvezze a finom ételeket a mesebeli kertekben</li> 
                     <li>Hallgassa meg a Tivoli Ifjúsági Gárda hangszeres játékát!</li> 
                 </ul>
-
+            </div>
+            <div>
                 <h2>Dán sütemények kóstolótúrája:</h2>
                 <ul>
                     <li>Kényeztesse minden érzékszervét pelyhes Wienerbrøddel, Kringle-vel és Hindbærsnitterrel.</li> 
@@ -37,6 +42,7 @@ export default function Programok(){
                     <li>Kóstolja meg Dánia sütőipari örökségét egyedi ízekkel és gazdag textúrákkal.</li>
                 </ul>
             </div>
+            
         </div>
     );
 }
