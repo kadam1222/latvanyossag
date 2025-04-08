@@ -1,0 +1,47 @@
+[
+    {
+        "név": "Tivoli Kertek",
+        "url": "https://img.oastatic.com/img2/82421930/max/variant.jpg",
+        "desc": "1843-ban nyílt meg, és a világ egyik legrégebbi vidámparkja. Gyönyörű kerteiről, izgalmas attrakcióiról és kulturális eseményeiről ismert, így a helyiek és a turisták körében is népszerű."
+    },
+    {
+        "név": "A Kis Hableány Szobor",
+        "url": "https://csamborgo.hu/wp-content/uploads/2019/05/00_fohirkep_kis_hableany-1440x962.jpg",
+        "desc": "Hans Christian Andersen meséje ihlette, és 1913 óta Koppenhága egyik legismertebb szimbóluma. A Langelinie sétányon található, egy sziklán, és évente milliónyi látogatót vonz."
+    },
+    {
+        "név": "Nyhavn",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8g5PE0H4WgzNrSCcVIoOW6gI80VUaA-369A&s",
+        "desc": "Ez a vibráló tengerparti negyed színes 17. századi épületeivel, kávézóival és éttermeivel vonzza a látogatókat. Tökéletes hely egy sétára vagy egy csatornás hajókirándulásra Koppenhága belvárosában."
+    },
+    {
+        "név": "Rosenborg Kastély",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2v8iKOIdZM9WJ2Qx6phL4_hlaVLWjIWi8fg&s",
+        "desc": "A 17. század elején épült Rosenborg Kastély egy reneszánsz stílusú erőd, amely a dán koronaékszereket őrzi. A kastély körül gyönyörű kertek találhatók, és betekintést nyújt Dánia királyi történelmébe."
+    },
+    {
+        "név": "Christiansborg Palota",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbHiTliphjbZ-mPetLk0Jn0Z-BgbxNFA1tJw&s",
+        "desc": "Dánia Parlamentjének, a Legfelsőbb Bíróságnak és a Miniszterelnöki Hivatalnak ad otthont. A palota királyi fogadószobáit és az alatta lévő romokat is meg lehet nézni."
+    },
+    {
+        "név": "Amalienborg Palota",
+        "url": "https://files.guidedanmark.org/files/382/171919_Amalienborg_sunset_Martin_Heiberg.jpg",
+        "desc": "Ez a dán királyi család hivatalos koppenhágai rezidenciája. A palota jellegzetes rokokó építészete és a napi őrségváltás ceremóniája teszi különlegessé."
+    },
+    {
+        "név": "Kerek Torony (Rundetaarn)",
+        "url": "https://navicup.com//upload/map-files/images/2163/image_49.png",
+        "desc": "A 17. században épült torony panorámás kilátást kínál Koppenhágára a kilátóteraszról. A toronyban csillagvizsgáló és könyvtár is található, így a történelem és az építészet kedvelői számára tökéletes látogatási célpont."
+    },
+    {
+        "név": "Dán Nemzeti Múzeum",
+        "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQny0llm-JvslnCEUl16Y5RERIgEN7YJqyHQ&s",
+        "desc": "A Dán Nemzeti Múzeum bemutatja Dánia kulturális történelmét, az ősi leletektől kezdve a modern kiállításokig. Átfogó képet ad az ország múltjáról, beleértve a viking örökséget is."
+    },
+    {
+        "név": "Frederiksborg Kastély",
+        "url": "https://cdn.getyourguide.com/img/tour/5a266e3199a09.jpeg/146.jpg",
+        "desc": "Koppenhágától nem messze, Hillerödben található Frederiksborg Kastély egy lenyűgöző reneszánsz palota, amelyet tó és kertek vesznek körül. A Nemzeti Történeti Múzeum otthona."
+    }
+]

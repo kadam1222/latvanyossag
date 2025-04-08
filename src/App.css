@@ -1,38 +1,86 @@
-.App {
+
+
+.kajakep{
+  width: 350px;
+  height: 300px;
+  margin-top: 15px;
+  border: 2px black solid;
+  border-radius: 10px;
+}
+.kajalabel{
+  font-weight:500;
+  padding: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h2{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button{
+  margin-left: 10px;
+  margin-right: 10px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.etel{
   display: flex;
+  width: 380px;
+  height: 450px;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
   flex-direction: column;
+  border: 3px black solid;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 5px rgb(97, 97, 97);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(238,217,196,0.3);
+}
+#fodiv{
+  display: flex;
+  flex-wrap: wrap
+}
+#fodiviroda{
+  display: flex;
+  flex-wrap: wrap
 }
 
-.App-link {
-  color: #61dafb;
+
+h1{
+  text-align: center;
+}
+ul{
+  padding: 15px;
+  margin: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.utazaskep{
+  width: 350px;
+  height: 200px;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.utazasszov{
+  padding: 10px;
+  font-weight: 600;
+}
+
+.link{
+  padding: 5px;
+}
+
+.utazasdiv{
+  display: flex;
+  width: 380px;
+  height: 600px;
+  text-align: center;
+  margin: auto;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 3px black solid;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  box-shadow: 3px 5px rgb(97, 97, 97);
+  align-items: center;
+  background-color: rgb(238,217,196,0.3);
 }

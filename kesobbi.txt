@@ -1,0 +1,12 @@
+<Link to={"/terkep"}>Térkép</Link>
+                <Link to={"/tippek"}>Tippek</Link>
+                <Link to={"/galeria"}>Galléria</Link>
+                <Link to={"/gasztronomia"}>Gasztronómia</Link>
+                <Link to={"/kapcsolat"}>Kapcsolat</Link>
+              <Link to={"/programok"}>Programok</Link>
+ <Route path="/programok" element={<Programok />}/>
+              <Route path="/terkep" element={<Terkep />}/>
+              <Route path="/tippek" element={<Tippek />}/>
+              <Route path='/galeria' element={<Galeria />}/>
+              <Route path="/gasztronomia" element={<Gasztronomia />}/>
+              <Route path="/kapcsolat" element={<Kapcsolat />}/>
