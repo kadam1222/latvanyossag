@@ -39,6 +39,7 @@ function App() {
               <Route path='/latvanyossag' element={<Latvanyossag />}/>
             </Routes>
         </Router>
+      
   )
 }
 

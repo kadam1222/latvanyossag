@@ -1,7 +1,7 @@
 import './latvanyossag.css'
 export default function latvany(){
     return(
-        <div id='fodiv'>
+        <div id='fodiv2'>
             <h1>Látnivalók</h1>
             <div>
                 <h2>Tivoli</h2>

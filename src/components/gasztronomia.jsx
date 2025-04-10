@@ -1,9 +1,5 @@
-import {BrowserRouter as Router, Routes,Route,Link} from "react-router-dom"
-import { useState } from "react";
+
 import  gasztro  from "./gasztro.json"
-import Fooldal from "./fooldal.jsx"
-
-
 export default function Gasztronomia(){
 
     return(
