@@ -41,6 +41,7 @@ function App() {
               <Route path='/terkep' element={<Terkep/>}/>
             </Routes>
         </Router>
+      
   )
 }
 
