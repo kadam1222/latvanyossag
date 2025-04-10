@@ -26,6 +26,7 @@ function App() {
               <Link to={"/kapcsolat"}>Kapcsolat</Link>
               <Link to={"/tippek"}>Tippek</Link>
               <Link to={"/programok"}>Programok</Link>
+              <Link to={"/terkep"}>Térkép</Link>
               
             </nav>
             </header>
@@ -37,6 +38,7 @@ function App() {
               <Route path='/tippek' element={<Tippek />}/>
               <Route path='/programok' element={<Programok />}/>
               <Route path='/latvanyossag' element={<Latvanyossag />}/>
+              <Route path='/terkep' element={<Terkep/>}/>
             </Routes>
         </Router>
   )

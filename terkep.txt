@@ -1,0 +1,22 @@
+import React from "react"
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
+import 'leaflet/dist/leaflet.css'
+import "../components/terkep.css"
+
+export default function MyMap() {
+    return (
+        <MapContainer 
+            id="map" 
+            center={[55.676, 12.568]} 
+            zoom={13} 
+            style={{ height: "100vh", width: "100%" }}
+        >
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[55.676, 12.568]}>
+                <Popup>
+                   
+                </Popup>
+            </Marker>
+        </MapContainer>
+    );
+}
